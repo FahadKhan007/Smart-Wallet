@@ -5,6 +5,8 @@ import 'package:wallet_app_ui/style.dart';
 import 'package:intl/intl.dart';
 
 class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
   @override
   State<HomePage> createState() => _HomePageState();
 }
@@ -206,7 +208,7 @@ class _HomePageState extends State<HomePage> {
                 color: const Color(0xFFf7f7f8),
                 borderRadius: BorderRadius.circular(10),
               ),
-              height: height * 0.200,
+              height: height * 0.195,
               child: ListView.builder(
                   padding: EdgeInsets.zero,
                   itemCount: 4,
@@ -335,8 +337,8 @@ class _HomePageState extends State<HomePage> {
                   }),
             ),
           ),
-          const SizedBox(
-            height: 8,
+          SizedBox(
+            height: height * 0.018,
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -346,7 +348,7 @@ class _HomePageState extends State<HomePage> {
                 color: const Color(0xFFf7f7f8),
                 borderRadius: BorderRadius.circular(10),
               ),
-              height: height * 0.200,
+              height: height * 0.195,
               child: ListView.builder(
                   padding: EdgeInsets.zero,
                   itemCount: 4,
