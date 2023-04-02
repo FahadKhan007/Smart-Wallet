@@ -510,7 +510,7 @@ class _HomePageState extends State<HomePage> {
               shaderCallback: (Rect bounds) {
                 return activeGradientOne.createShader(bounds);
               },
-              child: Icon(Icons.bar_chart_rounded),
+              child: const Icon(Icons.bar_chart_rounded),
             ),
             icon: const Icon(
               Icons.bar_chart_rounded,
@@ -523,7 +523,7 @@ class _HomePageState extends State<HomePage> {
               shaderCallback: (Rect bounds) {
                 return activeGradientOne.createShader(bounds);
               },
-              child: Icon(Icons.credit_card_rounded),
+              child: const Icon(Icons.credit_card_rounded),
             ),
             icon: const Icon(
               Icons.credit_card_rounded,
@@ -536,7 +536,7 @@ class _HomePageState extends State<HomePage> {
               shaderCallback: (Rect bounds) {
                 return activeGradientOne.createShader(bounds);
               },
-              child: Icon(Icons.person),
+              child: const Icon(Icons.person),
             ),
             icon: const Icon(
               Icons.person,
